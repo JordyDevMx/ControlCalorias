@@ -1,3 +1,8 @@
+# Control Calorias
+Repositorio del proyecto JordyDev
+![cortado](https://github.com/user-attachments/assets/1f9a4220-8b17-45d9-8c85-b625fc8a6b4e)
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
