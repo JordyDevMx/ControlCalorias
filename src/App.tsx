@@ -16,9 +16,11 @@ function App() {
 
     return (
       <>
-        <header className="bg-blue-600 py-3">
+        <header className="bg-slate-300 py-3">
           <div className="max-w-4xl mx-auto flex justify-between items-center">
-            <h1 className="text-center text-lg font-bold text-white uppercase">
+            <img className="w-60" src="/logo.svg" alt="Logo" />
+
+            <h1 className="text-center text-lg font-bold text-blue-600 uppercase">
               Contador de calorias
             </h1>
 
@@ -52,7 +54,7 @@ function App() {
         </section>
 
         <footer className="bg-blue-600 p-4 text-center">
-          <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordyweb.site/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
+          <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordydev.website/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
       </footer>
       </>
     )
